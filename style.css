@@ -1,0 +1,35 @@
+#container{
+    width: 1000px;
+    height: 2000px;
+    margin: 100px;
+}
+#top{
+    background-image: url("images/hat.jpeg");
+    background-image: url=("images/hats1.jpg");
+    height: 1000px;
+    width: 1000px;
+}
+#pic{
+    text-align: end;
+}
+#navbar{
+    height: 50px;
+    display: flex;
+    gap: 7%;
+    text-decoration: none;
+    -webkit-text-fill-color: aliceblue;
+    font-size:large;
+    background-color: rgb(53, 48, 48);
+}
+#words{
+    font-size: xx-large;
+    position: absolute;
+    margin: 200px;
+    text-align: center;
+    -webkit-text-fill-color: aliceblue;
+    text-align: center;
+}
+#design{
+    text-decoration: none;
+    -webkit-text-fill-color: brown;
+}
