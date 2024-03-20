@@ -1,21 +1,14 @@
 #container{
-    width: 1000px;
-    height: 2000px;
-    margin: 100px;
+    width: 1800px;
 }
-#top{
-    background-image: url("images/hat.jpeg");
-    background-image: url=("images/hats1.jpg");
-    height: 1000px;
-    width: 1000px;
-}
+
 #pic{
     text-align: end;
 }
 #navbar{
     height: 50px;
     display: flex;
-    gap: 7%;
+    gap: 10%;
     text-decoration: none;
     -webkit-text-fill-color: aliceblue;
     font-size:large;
@@ -32,4 +25,51 @@
 #design{
     text-decoration: none;
     -webkit-text-fill-color: brown;
+}
+.gowns{
+    width:300px; 
+    height:300px;
+}
+#marque{
+   direction: left;
+
+
+}
+#topic{
+    font-size: xx-large;
+    text-align: center;
+}
+#marque1{
+    direction:left;
+    behavior: alternate;
+}
+#style{
+    width: 1800px;
+    height: 1000px;
+    background-color: rgb(19, 17, 17);
+    -webkit-text-fill-color: aliceblue;
+}
+#jewelry{
+    font-size: xx-large;
+    text-align: center;
+}
+#main{
+    margin:100px;
+}
+#cap{
+    width:500px;
+    height:500px;
+}
+#ahead{
+    display:flex;
+    gap: 3%;
+    background-color: rgb(88, 74, 74);
+}
+#shoe{
+    height: 500px;
+    width: 500px;
+}
+#below{
+    font-size: xx-large;
+    text-align: center;
 }
