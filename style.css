@@ -1,5 +1,6 @@
 #container{
     width: 1800px;
+    background-color: rgb(39, 33, 33);
 }
 
 #pic{
@@ -12,7 +13,7 @@
     text-decoration: none;
     -webkit-text-fill-color: aliceblue;
     font-size:large;
-    background-color: rgb(53, 48, 48);
+    background-color: rgb(10, 10, 10);
 }
 #words{
     font-size: xx-large;
@@ -38,6 +39,7 @@
 #topic{
     font-size: xx-large;
     text-align: center;
+    -webkit-text-fill-color: aliceblue;
 }
 #marque1{
     direction:left;
@@ -45,13 +47,13 @@
 }
 #style{
     width: 1800px;
-    height: 1000px;
-    background-color: rgb(19, 17, 17);
+    background-color: rgb(7, 7, 7);
     -webkit-text-fill-color: aliceblue;
 }
 #jewelry{
     font-size: xx-large;
     text-align: center;
+    -webkit-text-fill-color: aliceblue;
 }
 #main{
     margin:100px;
@@ -64,6 +66,7 @@
     display:flex;
     gap: 3%;
     background-color: rgb(88, 74, 74);
+    -webkit-text-fill-color: aliceblue;
 }
 #shoe{
     height: 500px;
@@ -72,4 +75,49 @@
 #below{
     font-size: xx-large;
     text-align: center;
+    -webkit-text-fill-color: aliceblue;
+}
+#founders{
+    height: 1500px;
+    width: 1500px;
+    -webkit-text-fill-color: aliceblue;
+}
+#you{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+#team{
+    width: 500px;
+    height: 500px;
+    border-radius: 400px;
+}
+#ceo{
+    text-align: center;
+    margin: 50px;
+}
+#hey{
+    display: flex;
+    gap:18%;
+    margin:100px;
+     
+}
+#shoes{
+    text-align: center;
+    -webkit-text-fill-color: aliceblue;
+    font-size: xx-large;
+}
+#form{
+    width: 500px;
+    -webkit-text-fill-color: blue;
+    height: 500px;
+}
+#name{
+    -webkit-text-fill-color: aliceblue;
+}
+.input{
+    background-color:white;
+    width: 1000px;
+    border: solid black;
+    height:50px;
 }
