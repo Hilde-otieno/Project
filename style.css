@@ -28,22 +28,15 @@
     -webkit-text-fill-color: brown;
 }
 .gowns{
-    width:300px; 
-    height:300px;
+    width:200px; 
+    height:200px;
+    text-align: center;
 }
-#marque{
-   direction: left;
 
-
-}
 #topic{
     font-size: xx-large;
     text-align: center;
     -webkit-text-fill-color: aliceblue;
-}
-#marque1{
-    direction:left;
-    behavior: alternate;
 }
 #style{
     width: 1800px;
@@ -69,8 +62,9 @@
     -webkit-text-fill-color: aliceblue;
 }
 #shoe{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
 }
 #below{
     font-size: xx-large;
@@ -111,6 +105,7 @@
     width: 500px;
     -webkit-text-fill-color: blue;
     height: 500px;
+    text-align: center;
 }
 #name{
     -webkit-text-fill-color: aliceblue;
@@ -120,4 +115,37 @@
     width: 1000px;
     border: solid black;
     height:50px;
+}
+#footer{
+    background-image: url("images/ankara1.jpg");
+    stroke: 50px;
+    width: 1400px;
+    height: 600px;
+    -webkit-text-fill-color: white;
+    margin:100px;
+}
+#dok{
+    display: flex;
+    gap: 20%;
+}
+#trolly{
+    width: 100px;
+    height: 100px;
+}
+#cree{
+    display: flex;
+    gap: 20%;
+}
+#down{
+    width: 50px;
+    height: 50px;
+}
+end{
+    width: 1400px;
+}
+#sub{
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    font-size: larger;
 }
