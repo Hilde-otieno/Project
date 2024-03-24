@@ -1,6 +1,6 @@
 #container{
     width: 1800px;
-    background-color: rgb(39, 33, 33);
+    background-color:white;
 }
 
 #pic{
@@ -11,16 +11,16 @@
     display: flex;
     gap: 10%;
     text-decoration: none;
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: black;
     font-size:large;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(139, 40, 40);
 }
 #words{
     font-size: xx-large;
     position: absolute;
     margin: 200px;
     text-align: center;
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: black;
     text-align: center;
 }
 #design{
@@ -36,20 +36,21 @@
 #topic{
     font-size: xx-large;
     text-align: center;
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: black;
 }
 #style{
     width: 1800px;
     background-color: rgb(7, 7, 7);
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: black;
 }
 #jewelry{
     font-size: xx-large;
     text-align: center;
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: black;
 }
 #main{
     margin:100px;
+    width: 1500px;
 }
 #cap{
     width:500px;
@@ -59,7 +60,7 @@
     display:flex;
     gap: 3%;
     background-color: rgb(88, 74, 74);
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: black;
 }
 #shoe{
     height: 300px;
@@ -69,12 +70,12 @@
 #below{
     font-size: xx-large;
     text-align: center;
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: black;
 }
 #founders{
     height: 1500px;
     width: 1500px;
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: black;
 }
 #you{
     width: 300px;
@@ -98,7 +99,7 @@
 }
 #shoes{
     text-align: center;
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: black;
     font-size: xx-large;
 }
 #form{
@@ -108,7 +109,7 @@
     text-align: center;
 }
 #name{
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: black;
 }
 .input{
     background-color:white;
@@ -146,6 +147,38 @@ end{
 #sub{
     width: 400px;
     height: 50px;
-    background-color: black;
+    background-color: aliceblue;
+    -webkit-text-fill-color: black;
     font-size: larger;
+}
+#list1{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+     display: inline-block;
+     vertical-align: middle;
+     position: relative;
+     width: 30%;
+     margin-left: 2rem;
+     margin-right: 2rem;
+     list-style: none;  
+}
+#list2{
+    width: 70%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap; 
+
+}
+li,
+img {
+  width: 500px;
+}
+.scroll{
+   cursor: pointer;
+}
+#imgs{
+    width: 500px;
+    height: 500px;;
 }
