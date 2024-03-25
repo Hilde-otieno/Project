@@ -1,18 +1,19 @@
 #container{
-    width: 1800px;
-    background-color:white;
+    width: 1600px;
+    background-color:rgb(231, 219, 219);
+    margin:100px;
 }
 
 #pic{
-    text-align: end;
+    text-align: center;
 }
 #navbar{
     height: 50px;
     display: flex;
-    gap: 10%;
+    gap: 5%;
     text-decoration: none;
     -webkit-text-fill-color: black;
-    font-size:large;
+    font-size: xx-large;
     background-color: rgb(139, 40, 40);
 }
 #words{
@@ -28,8 +29,8 @@
     -webkit-text-fill-color: brown;
 }
 .gowns{
-    width:200px; 
-    height:200px;
+    width:290px; 
+    height:300px;
     text-align: center;
 }
 
@@ -56,6 +57,12 @@
     width:500px;
     height:500px;
 }
+#go{
+    background-color: rgb(54, 47, 47);
+    width: 1500px;
+    margin: 50px;
+    
+}
 #ahead{
     display:flex;
     gap: 3%;
@@ -76,6 +83,7 @@
     height: 1500px;
     width: 1500px;
     -webkit-text-fill-color: black;
+    background-color: rgb(127, 120, 134);
 }
 #you{
     width: 300px;
@@ -103,10 +111,11 @@
     font-size: xx-large;
 }
 #form{
-    width: 500px;
-    -webkit-text-fill-color: blue;
+    width: 1500px;
+    -webkit-text-fill-color: rgb(12, 12, 243);
     height: 500px;
     text-align: center;
+    background-color: rgb(54, 63, 63);
 }
 #name{
     -webkit-text-fill-color: black;
@@ -141,7 +150,7 @@
     width: 50px;
     height: 50px;
 }
-end{
+#end{
     width: 1400px;
 }
 #sub{
@@ -181,4 +190,14 @@ img {
 #imgs{
     width: 500px;
     height: 500px;;
+}
+#jewel{
+    background-color: brown;
+    width: 1500px;
+    margin: 50px;
+}
+#shoe1{
+    background-color: rgb(76, 76, 156);
+    margin: 50px;
+    width: 1500px;
 }
