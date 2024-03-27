@@ -1,7 +1,8 @@
 #container{
     width: 1600px;
     background-color:rgb(231, 219, 219);
-    margin:100px;
+    margin:50px;
+    border-radius: 50px;
 }
 
 #pic{
@@ -10,11 +11,11 @@
 #navbar{
     height: 50px;
     display: flex;
-    gap: 5%;
+    gap: 7%;
     text-decoration: none;
     -webkit-text-fill-color: black;
     font-size: xx-large;
-    background-color: rgb(139, 40, 40);
+    background-color: rgb(231, 194, 194);
 }
 #words{
     font-size: xx-large;
@@ -31,7 +32,7 @@
 .gowns{
     width:290px; 
     height:300px;
-    text-align: center;
+    justify-content: center;
 }
 
 #topic{
@@ -50,24 +51,24 @@
     -webkit-text-fill-color: black;
 }
 #main{
-    margin:100px;
     width: 1500px;
+    margin: 50px;
 }
 #cap{
     width:500px;
     height:500px;
 }
 #go{
-    background-color: rgb(54, 47, 47);
-    width: 1500px;
-    margin: 50px;
+    background-color: rgb(180, 176, 109);
+    width: 1250px;
+    margin: 100px;
     
 }
 #ahead{
     display:flex;
     gap: 3%;
     background-color: rgb(88, 74, 74);
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color: white;
 }
 #shoe{
     height: 300px;
@@ -84,6 +85,7 @@
     width: 1500px;
     -webkit-text-fill-color: black;
     background-color: rgb(127, 120, 134);
+    margin: 50px;
 }
 #you{
     width: 300px;
@@ -111,14 +113,17 @@
     font-size: xx-large;
 }
 #form{
-    width: 1500px;
-    -webkit-text-fill-color: rgb(12, 12, 243);
+    width: 1100px;
+    -webkit-text-fill-color: rgb(17, 17, 19);
     height: 500px;
     text-align: center;
-    background-color: rgb(54, 63, 63);
+    background-color: rgb(62, 194, 194);
+    font-size: x-large;
+    margin: 100px;
 }
 #name{
     -webkit-text-fill-color: black;
+    text-align: center;
 }
 .input{
     background-color:white;
@@ -131,8 +136,9 @@
     stroke: 50px;
     width: 1400px;
     height: 600px;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color:whitesmoke;
     margin:100px;
+    font-size:large;
 }
 #dok{
     display: flex;
@@ -192,12 +198,55 @@ img {
     height: 500px;;
 }
 #jewel{
-    background-color: brown;
-    width: 1500px;
-    margin: 50px;
+    background-color: rgb(192, 176, 176);
+    width: 1250px;
+    margin: 100px;
 }
 #shoe1{
-    background-color: rgb(76, 76, 156);
-    margin: 50px;
-    width: 1500px;
+    background-color: rgb(122, 122, 146);
+    margin: 100px;
+    width: 1250px;
+}
+#sel{
+    font-size: xx-large;
+    text-align: center;
+}
+#med{
+    gap: 10%;
+    display: flex;
+}
+#sha{
+    gap: 10%;
+    display: flex;
+}
+#san{
+    gap: 2%;
+    display: flex;
+}
+.input{
+    margin: 15px;
+}
+#wel{
+    gap: 10%;
+    display: flex;
+}
+#wel2{
+    gap: 10%;
+    display: flex;
+}
+#wel3{
+    gap:2%;
+    display: flex;
+}
+#cla1{
+    gap: 10%;
+    display: flex;
+}
+#cla2{
+    gap: 10%;
+    display: flex;
+}
+#cla3{
+    gap: 2%;
+    display: flex;
 }
