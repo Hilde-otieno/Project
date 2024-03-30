@@ -62,8 +62,7 @@
 #go{
     background-color: rgb(180, 176, 109);
     width: 1250px;
-    margin: 100px;
-    
+    margin-left: 200px;
 }
 #ahead{
     display:flex;
@@ -121,7 +120,7 @@
     text-align: center;
     background-color: rgb(62, 194, 194);
     font-size: x-large;
-    margin: 100px;
+    margin-left: 250px;
     border-radius: 40px;
 }
 #name{
@@ -203,11 +202,11 @@ img {
 #jewel{
     background-color: rgb(192, 176, 176);
     width: 1250px;
-    margin: 100px;
+    margin-left: 200px;
 }
 #shoe1{
     background-color: rgb(122, 122, 146);
-    margin: 100px;
+    margin-left: 200px;
     width: 1250px;
 }
 #sel{
