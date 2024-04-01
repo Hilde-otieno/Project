@@ -268,6 +268,20 @@ img {
     width: 100px;
     height: 100px;
 }
+#cust{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    gap: 20%;
+}
+#customers{
+    display: flex;
+    gap: 20%;
+    margin-left: 150px;
+    width: 1300px;
+    height: 1300px;
+    background-color: rgb(121, 58, 58);
+}
 @media all and (min-width:350px) and (max-width: 1024px){
     #container{
         width: 100%;
@@ -433,8 +447,8 @@ img {
         gap: 20%;
     }
     #down{
-        width: 5px;
-        height: 5px;
+        width: 10px;
+        height: 10px;
     }
     #end{
         width: 140px;
