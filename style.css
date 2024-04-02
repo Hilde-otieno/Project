@@ -183,7 +183,7 @@ li{
      list-style: none;  
 }
 #list2{
-    width: 70%;
+    width: 90%;
     overflow-x:scroll;
     overflow-y:hidden;
     white-space: nowrap; 
@@ -271,35 +271,7 @@ img {
     width: 100px;
     height: 100px;
 }
-#cust{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    gap: 20%;
-}
-#customers{
-    display: block;
-    gap: 3%;
-    margin-left: 150px;
-    width: 1300px;
-    height: 500px;
-    background-color: rgb(121, 58, 58);
-    border-radius: 50px;
-}
-#customer1{
-    display: flex;
-    gap: 5%;
-    margin-left: 100px;
-}
-#customer2{
-    display: flex;
-    gap: 5%;
-    margin-left: 150px;
-}
-#reviews{
-    text-align: center;
-    font-size: x-large;
-}
+
 @media all and (min-width:350px) and (max-width: 1024px){
     #container{
         width: 90%;
@@ -420,13 +392,11 @@ img {
         font-size: xx-small;
     }
     #form{
-        width: 250px;
+        width: 300px;
         -webkit-text-fill-color: rgb(17, 17, 19);
-        height: 150px;
-        text-align: center;
+        height: 200px;
         background-color: rgb(62, 194, 194);
         font-size: x-small;
-        margin-left: 25px;
         border-radius: 4px;
     }
     #name{
@@ -591,32 +561,5 @@ img {
     #cree{
         width:20px;
         height: 20px;
-    }
-    #cust{
-        width: 40px;
-        height: 40px;
-        border-radius: 50px;
-        gap: 20%;
-    }
-    #customers{
-        display: flex;
-        flex-wrap: wrap;
-        width: 300px;
-        height: 700px;
-        background-color: rgb(121, 58, 58);
-        border-radius: 50px;
-        font-size: xx-small;
-    }
-    #customer1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    #customer2{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    #reviews{
-        text-align: center;
-        font-size: xx-small;
     }
 }
