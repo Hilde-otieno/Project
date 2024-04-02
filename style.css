@@ -291,7 +291,7 @@ img {
 #customer2{
     display: flex;
     gap: 5%;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 #reviews{
     text-align: center;
@@ -299,7 +299,7 @@ img {
 }
 @media all and (min-width:350px) and (max-width: 1024px){
     #container{
-        width: 100%;
+        width: 90%;
     }
     
     #pic{
@@ -363,6 +363,8 @@ img {
         width: 80%;
         margin-left: 20px;
         font-size: xx-small;
+        display: flex;
+        flex-wrap: wrap;
     }
     #ahead{
         gap: 3%;
@@ -381,8 +383,8 @@ img {
         -webkit-text-fill-color: black;
     }
     #founders{
-        height: 150px;
-        width: 150px;
+        height: 800px;
+        width:400px;
         -webkit-text-fill-color: black;
         background-color: rgb(127, 120, 134);
         margin: 5px;
@@ -418,9 +420,9 @@ img {
         font-size: xx-small;
     }
     #form{
-        width: 60%;
+        width: 250px;
         -webkit-text-fill-color: rgb(17, 17, 19);
-        height: 50px;
+        height: 150px;
         text-align: center;
         background-color: rgb(62, 194, 194);
         font-size: x-small;
@@ -441,10 +443,10 @@ img {
     #footer{
         background-image: url("images/ankara1.jpg");
         stroke: 5px;
-        width: 140px;
-        height: 60px;
+        width: 300px;
+        height: 150px;
         -webkit-text-fill-color:whitesmoke;
-        margin:10px;
+        margin-left: 100px;
         font-size:xx-small;
     }
     #dok{
@@ -511,11 +513,17 @@ img {
         background-color: rgb(192, 176, 176);
         width: 125px;
         margin-left: 20px;
+        font-size: xx-small;
+        display: flex;
+        flex-wrap: wrap;
     }
     #shoe1{
         background-color: rgb(122, 122, 146);
         margin-left: 20px;
         width: 125px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: xx-small;
     }
     #sel{
         font-size: xx-small;
@@ -586,5 +594,35 @@ img {
         width:20px;
         height: 20px;
     }
-
+    #cust{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        gap: 20%;
+    }
+    #customers{
+        display: block;
+        gap: 3%;
+        width: 300px;
+        height: 700px;
+        background-color: rgb(121, 58, 58);
+        border-radius: 50px;
+        font-size: xx-small;
+    }
+    #customer1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        margin-left: 10px;
+    }
+    #customer2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        margin-left: 15px;
+    }
+    #reviews{
+        text-align: center;
+        font-size: xx-small;
+    }
 }
