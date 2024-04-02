@@ -383,15 +383,13 @@ img {
         -webkit-text-fill-color: black;
     }
     #founders{
-        height: 800px;
-        width:400px;
+        height: 1000px;
+        width:300px;
         -webkit-text-fill-color: black;
         background-color: rgb(127, 120, 134);
-        margin: 5px;
         border-radius: 5px;
         font-size: x-small;
         display: block;
-        border-left-style: double;
     }
     #you{
         width: 30px;
@@ -405,7 +403,6 @@ img {
     }
     #ceo{
         text-align: center;
-        margin: 5px;
     }
     #hey{
         display: flex;
@@ -442,11 +439,9 @@ img {
     }
     #footer{
         background-image: url("images/ankara1.jpg");
-        stroke: 5px;
         width: 300px;
-        height: 150px;
+        height: 200px;
         -webkit-text-fill-color:whitesmoke;
-        margin-left: 100px;
         font-size:xx-small;
     }
     #dok{
@@ -601,8 +596,8 @@ img {
         gap: 20%;
     }
     #customers{
-        display: block;
-        gap: 3%;
+        display: flex;
+        flex-wrap: wrap;
         width: 300px;
         height: 700px;
         background-color: rgb(121, 58, 58);
@@ -612,14 +607,10 @@ img {
     #customer1{
         display: flex;
         flex-wrap: wrap;
-        gap: 5%;
-        margin-left: 10px;
     }
     #customer2{
         display: flex;
         flex-wrap: wrap;
-        gap: 5%;
-        margin-left: 15px;
     }
     #reviews{
         text-align: center;
