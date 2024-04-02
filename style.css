@@ -259,10 +259,13 @@ img {
 #kenya{
     width: 400px;
     height: 400px;
+    object-fit: cover;
+    border-radius: 50px;
 }
 #branch{
     display: flex;
     margin-left: 200px;
+    gap: 5%;
 }
 #cree{
     width: 100px;
