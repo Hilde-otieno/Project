@@ -184,8 +184,8 @@ li{
 }
 #list2{
     width: 70%;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow-x:scroll;
+    overflow-y:hidden;
     white-space: nowrap; 
 
 }
@@ -264,7 +264,7 @@ img {
 }
 #branch{
     display: flex;
-    margin-left: 200px;
+    margin-left: 130px;
     gap: 5%;
 }
 #cree{
